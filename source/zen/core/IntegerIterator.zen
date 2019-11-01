@@ -1,0 +1,25 @@
+class IntegerIterator : Iterator
+
+    @Property writable=false
+    var startIndex
+
+    @Property writable=false
+    var stride
+
+    @Property writable=false
+    var stopIndex
+
+    @Property writable=false
+    var currentValue
+
+    @Override
+    function hasNext()
+        return currentValue + stride < stopIndex
+
+    @Override
+    function getNext()
+        if currentValue + stride >= stopIndex
+            throw new EmptyIteratorException()
+
+        currentValue += stride
+        return currentValue
