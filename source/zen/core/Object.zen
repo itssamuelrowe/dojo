@@ -1,0 +1,45 @@
+// Saturday, November 23, 2019
+
+/**
+ * The `Object` class is the superclass of all the classes.
+ *
+ * @author Samuel Rowe
+ * @since 1.0
+ */
+class Object
+
+    /**
+     * Returns `true` if this object is equal to the specified object; `false`
+     * otherwise.
+     *
+     * @param other
+     *        The other object to compare with.
+     * @return `true` if this object is equal to the specified object;
+     *         `false` otherwise.
+     */
+    @Return type='boolean'
+    native function equals(other)
+
+    /**
+     * Returns a hash key for this object.
+     *
+     * @return A hash key for this object.
+     */
+    @Return type='i32'
+    native function hash()
+
+    /**
+     * Returns the identity of this object.
+     *
+     * @return The identity of this object.
+     */
+    @Return type='i64'
+    final native function getIdentity()
+
+    /**
+     * Returns a string representation of this object.
+     *
+     * @return A string representation of this object.
+     */
+    @Return type='zen.core.String'
+    native function toString()
