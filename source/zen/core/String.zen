@@ -1,0 +1,29 @@
+// Sunday, January 26, 2020 (Happy Republic Day India!)
+
+/**
+ * The `String` class represents a sequence of characters.
+ *
+ * @author Samuel Rowe
+ * @since 1.0
+ */
+class String
+
+    var value
+
+    var hash
+
+    function new(value)
+        this.value = value
+
+    @Operator symbol='=='
+    @Return type='boolean'
+    @Override
+    native function equals(other)
+
+    @Return type='zen.core.String'
+    @Override
+    function toString()
+    
+    @Property name='size'
+    function getSize()
+        return value.size

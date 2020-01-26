@@ -17,6 +17,7 @@ class Object
      * @return `true` if this object is equal to the specified object;
      *         `false` otherwise.
      */
+    @Operator symbol='=='
     @Return type='boolean'
     native function equals(other)
 

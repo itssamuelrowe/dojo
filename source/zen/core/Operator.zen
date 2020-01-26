@@ -1,3 +1,3 @@
-annotation Operator
-    Integer degree
-    String symbol
+class Operator
+    var degree
+    var symbol
