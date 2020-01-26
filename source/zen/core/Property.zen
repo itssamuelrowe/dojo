@@ -1,0 +1,13 @@
+// Sunday, January 26, 2020 (Happy Republic Day India!)
+
+/**
+ * @author Samuel Rowe
+ * @since 1.0
+ */
+class Property
+
+    var name
+    
+    var writable = true
+    
+    var readable = true
