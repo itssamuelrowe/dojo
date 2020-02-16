@@ -1,0 +1,15 @@
+// Sunday, February 16, 2010
+
+/**
+ * The `Integer` class represents an integer value.
+ *
+ * @author Samuel Rowe
+ * @since 1.0
+ */
+class Integer
+    
+    @FieldEntity descriptor='i'
+    var value
+    
+    function new()
+        ;

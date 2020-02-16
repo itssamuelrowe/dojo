@@ -7,7 +7,7 @@
 class Property
 
     var name
-    
+
     var writable = true
-    
+
     var readable = true

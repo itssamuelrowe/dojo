@@ -1,0 +1,25 @@
+// Sunday, February 16, 2020
+
+/**
+ * The `Array` class represents a fixed sequence of values.
+ *
+ * @author Samuel Rowe
+ * @since 1.0
+ */
+class Array
+
+    @FieldEntity descriptor='p'
+    var values
+    
+    @FieldEntity descriptor='i'
+    var size
+
+    var componentDescriptor
+
+    var dimensions
+
+    function new()
+        ;
+
+    @Property name='size'
+    native function getSize()
